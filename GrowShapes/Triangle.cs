@@ -27,6 +27,6 @@ namespace GrowShapes
         }
 
         // TODO IMPLEMENT
-        public override double GetPerimeter() => -1;
+        public override double GetPerimeter() => _bside + _cside + _aside;
     }
 }
