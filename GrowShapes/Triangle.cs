@@ -25,8 +25,6 @@ namespace GrowShapes
             return Math.Sqrt(semiPerimeter *
                             (semiPerimeter - _aside) * (semiPerimeter - _bside) * (semiPerimeter - _cside));
         }
-
-        // TODO IMPLEMENT
-        public override double GetPerimeter() => _bside + _cside + _aside;
+        public override double GetPerimeter() => _aside + _bside + _cside;
     }
 }
